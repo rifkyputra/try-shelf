@@ -1,0 +1,16 @@
+{
+    "verbose": false,
+    "delay": "10",
+    "watch": [
+        "."
+    ],
+    "ignore": [
+        "build",
+        "tmp"
+    ],
+    "ext": "dart html scss yaml",
+    "exec": "dart --no-sound-null-safety bin/server.dart",
+    "execMap": {
+        "dart": "dart"
+    }
+}
